@@ -7,7 +7,6 @@ categories:
   - 编程
 date: 2017-03-17 00:00:00
 ---
-
 ## 背景
 有时候我们会有把一整段 HTML 动态塞进页面的需求，例如渲染了一个模板，从服务器端获取了一段广告代码等。一般情况下我们使用 `container.innerHTML` 即可。但是当 HTML 中出现 `script` 标签时，直接使用 `innerHTML` 并不会执行它。
 
@@ -169,4 +168,3 @@ setHTMLWithScript(document.body, rawHTML)
 - [Scripts in inner html are not exectuted sequentially in order · Issue #2538 · jquery/jquery](https://github.com/jquery/jquery/issues/2538)
 - [javascript - Load and execution sequence of a web page? - Stack Overflow](http://stackoverflow.com/questions/1795438/load-and-execution-sequence-of-a-web-page)
 
-v2-c87b7b318eb931c4a64d399b98776599_b.png
