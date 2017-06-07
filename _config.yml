@@ -2,7 +2,7 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 cdn:
-  enable: true
+  enable: false
   base: //o4w3iibte.qnssl.com
 
 optimize:
@@ -89,7 +89,7 @@ theme: material
 deploy:
   type: git
   repo: https://github.com/codefalling/codefalling.com
-  branch: gh-pages
+  branch: master
 
 theme_config:
   # ---------------------------------------------------------------
