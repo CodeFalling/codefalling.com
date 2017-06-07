@@ -22,7 +22,7 @@ optimize:
   gzip: true
 
 # Site
-title: M-x codefalling
+title: codefalling
 subtitle:
 description:
 author: codefalling
