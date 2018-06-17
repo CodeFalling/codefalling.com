@@ -1,0 +1,30 @@
+# site title
+title: 当轩
+
+# user name or organization name
+user: codefalling
+
+# issue repository
+repository: blog
+
+# multi-author
+authors:
+
+# token
+# token should be separated by '#'
+# example: 5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa
+token:  ae376baefcaaeddc0b8342a4c5955e4f3b857911
+
+# posts per page
+perpage: 10
+
+
+# advance config
+
+# organization repository (?)
+organization: false
+
+# post order
+# order by create time" or "update time"
+# 'UPDATED_AT' or 'CREATED_AT'
+order: 'UPDATED_AT'
